@@ -55,10 +55,6 @@ header nav {
   margin: 0px auto;
 }
 
-.container {
-
-}
-
 /* Mission Container */
 
 .mission {
@@ -67,5 +63,35 @@ header nav {
   justify-content: center;
   width: 100%;
   height: 700px;
-  background-image: url(../images/mission.jpg)
+  background-image: url(../images/mission.jpg);
+}
+
+/* Tea Container */
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+/* Locations Container */
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/locations.jpg);
+}
+
+/* Contact Container */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 200px;
 }
