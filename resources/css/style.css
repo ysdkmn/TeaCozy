@@ -1,0 +1,16 @@
+/* general */
+ * {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ body {
+   font-family: helvetica;
+   font-size: 22px;
+   color: seashell;
+   background-color: black;
+   opacity: 0.9;
+   text-align: center;
+ }
+
+ /* header */
