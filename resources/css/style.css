@@ -90,19 +90,22 @@ header nav {
 
 .tea .ccontainer {
   width: 100%;
-  padding-bottom: 10px;
 }
 
 .images {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .images .ccontainer {
   width: 300px;
-  height: 250px;
-  border: 1px solid red;
+  margin: 5px 15px;
+}
+
+.tea img {
+  height: 200px;
 }
 
 /* Locations Container */
