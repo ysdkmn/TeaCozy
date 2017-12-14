@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: helvetica;
+  font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
@@ -132,6 +132,7 @@ header nav {
 .locations .ccontainer {
   width: 300px;
   margin: 0px 20px;
+  opacity: 1;
 }
 
 .locations span, h3 {
@@ -146,4 +147,20 @@ header nav {
   justify-content: flex-start;
   align-items: center;
   height: 200px;
+  margin: 0px auto;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+}
+
+.contact h5 {
+  margin: 20px;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  padding: 20px;
 }
